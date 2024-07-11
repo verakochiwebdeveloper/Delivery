@@ -1,0 +1,42 @@
+.header {
+    padding: 44px 0;
+}
+.logo {
+    width: 100px;
+    height: 36px;
+}
+
+.header__links-account, .header__links-basket {
+    background: #1890FF;
+    padding: 8px 16px;
+    display: inline-flex;
+    color: #ffff;
+    align-items: center;
+}
+
+.header__links-basket {
+    color:#595959;
+    border: 1px solid #D9D9D9;
+    background: #FFFFFF;
+}
+
+.header__links-text {
+    display: block;
+    margin-left: 4px;
+}
+
+.menu {
+    margin-left: 35px;
+}
+
+.menu__list-link {
+    color:#595959;
+    margin-left: 15px;
+}
+.social__list {
+    
+}
+
+.social__list-item {
+    margin-left: 21px;
+}
