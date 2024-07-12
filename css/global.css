@@ -89,13 +89,41 @@ a {
   padding: 0 15px;
 }
 
+.--main-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(245, 245, 245, 0) 1.04%,
+    #f5f5f5 100%
+  );
+}
+
+.--h1 {
+  font-family: "Roboto";
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 45.7px;
+  text-align: left;
+}
+
+.--h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42.19px;
+}
+
 .--regular-16 {
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  text-align: center;
 }
 .--roboto-18 {
-  
+}
+
+.--roboto-r24 {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
 }

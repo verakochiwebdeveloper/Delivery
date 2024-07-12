@@ -1,42 +1,94 @@
 .header {
-    padding: 44px 0;
+  padding: 44px 0;
 }
 .logo {
-    width: 100px;
-    height: 36px;
+  width: 100px;
+  height: 36px;
 }
 
-.header__links-account, .header__links-basket {
-    background: #1890FF;
-    padding: 8px 16px;
-    display: inline-flex;
-    color: #ffff;
-    align-items: center;
+.header__links-account,
+.header__links-basket {
+  background: #1890ff;
+  padding: 8px 16px;
+  display: inline-flex;
+  color: #ffff;
+  align-items: center;
 }
 
 .header__links-basket {
-    color:#595959;
-    border: 1px solid #D9D9D9;
-    background: #FFFFFF;
+  color: #595959;
+  border: 1px solid #d9d9d9;
+  background: #ffffff;
 }
 
 .header__links-text {
-    display: block;
-    margin-left: 4px;
+  display: block;
+  margin-left: 4px;
 }
 
+.promo__wrapper {
+  background: #fff1b8;
+  border-radius: 10px;
+}
+
+.promo__content {
+  width: 538px;
+  margin: 62px 0 62px 70px;
+}
+
+.promo__content-text {
+    display: block;
+    margin-top: 29px;
+}
+
+.promo__image{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.restaurant {
+    margin-top: 58px;
+}
+.restaurant__search {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.restaurant__search-input {
+    min-width: 305px;
+    height: 35px; 
+    padding: 5px 12px 5px 32px;
+    border:none
+}
+.search__btn {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    background: none;
+    border: none;
+    width: 16px;
+    height: 16px;
+}
+ 
+
 .menu {
-    margin-left: 35px;
+  margin-left: 35px;
 }
 
 .menu__list-link {
-    color:#595959;
-    margin-left: 15px;
+  color: #595959;
+  margin-left: 15px;
 }
 .social__list {
-    
 }
 
 .social__list-item {
-    margin-left: 21px;
+  margin-left: 21px;
+}
+
+.footer {
+  background: #ffffff;
 }
