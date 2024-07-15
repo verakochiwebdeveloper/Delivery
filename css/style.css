@@ -72,8 +72,45 @@
     width: 16px;
     height: 16px;
 }
- 
 
+.restaurant__wrapper {
+  margin: 44px 0 66px 0;
+}
+
+.restaurant__list {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 100%;
+  
+}
+
+.restaurant__list-link {
+  display: block;
+  color: #000;
+  width: 385px;
+  display: block;
+}
+
+.restaurant__list-card {
+  
+}
+
+.restaurant__card-rating {
+  position: relative;
+  left: 30px;
+}
+
+.restaurant__card-rating::before {
+  content: " ";
+  background-image: url("../images/svg/star.svg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -30px;
+}
+ 
 .menu {
   margin-left: 35px;
 }
@@ -91,4 +128,5 @@
 
 .footer {
   background: #ffffff;
+  padding: 68px 0;
 }
